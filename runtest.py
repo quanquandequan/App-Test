@@ -3,18 +3,25 @@
 import time
 import unittest
 import HTMLTestRunner
-from common.sendEmail import send_email
+from common.sendEmail import Email
 
+email = Email()
+all_case = 'E:\\App-Test\\testcase'
 # all_case = '/Users/xintudoutest/github/Appium/testcase'
-all_case = 'E:\\App-UITest\\testcase'
 
-# 使用discover查找出Case文件夹下的所有ad开头的.py文件
+
 def CreateSuite():
+
+    """
+        使用discover查找出testcase文件夹下的所有test开头的.py文件
+    """
     test_suite = unittest.TestSuite()  # 创建测试套件
     discover = unittest.defaultTestLoader.discover(all_case,
     pattern ='test_*.py', top_level_dir=None)
 
-    # 使用for循环出suite,再循环出case
+    """
+        使用for循环出suite,再循环出case
+    """
     for suite in discover:
         for case in suite:
             test_suite.addTests(case)
@@ -25,7 +32,7 @@ def CreateSuite():
 def runtest():
     case = CreateSuite()
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-    filename = 'E:\\App-UITest\\report\\' + now + "Myreport.html"
+    filename = 'E:\\App-Test\\report\\' + now + "Myreport.html"
     # filename = '/Users/xintudoutest/github/Appium/report/' + now + "Myreport.html"
     fp = open(filename, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u'自动化测试报告', description=u'测试用例结果', tester=u'宇宙超级无敌大圈圈')
@@ -33,12 +40,7 @@ def runtest():
     fp.close()
 
 
-def email():
-    send_email()
-
-
 if __name__ == "__main__":
-
     runtest()
-    email()
+    email.send_mail()
 
