@@ -1,0 +1,31 @@
+testinfo:
+    - id: login_001
+      title: 邮箱账号登录
+      execute: 1
+testcase:
+    -
+      element_info: com.android.packageinstaller:id/permission_allow_button
+      find_type: id
+      operate_type: click
+    -
+      element_info: com.android.packageinstaller:id/permission_allow_button
+      find_type: id
+      operate_type: click
+    -
+      element_info: com.android.packageinstaller:id/permission_allow_button
+      find_type: id
+      operate_type: click
+    -
+      element_info: com.waka:id/edt_login_email
+      find_type: id
+      operate_type: send_keys
+      send_content: quanquan@126.com
+    -
+      element_info: com.waka:id/edt_login_password
+      find_type: id
+      operate_type: send_keys
+      send_content: qweasd
+    -
+      element_info: com.waka:id/btn_login
+      find_type: id
+      operate_type: click
