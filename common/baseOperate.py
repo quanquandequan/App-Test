@@ -184,9 +184,9 @@ class BaseOperate:
 
         try:
             WebDriverWait(self.driver, 15).until(
-                lambda driver: driver.find_element_by_class_name(name).is_displayed())
-            element = self.driver.find_element_by_class_name(name)
-            return element
+                lambda driver: driver.find_elements_by_class_name(name).is_displayed())
+            elements = self.driver.find_elements_by_class_name(name)
+            return elements
         except:
             log.error('未定位到class元素：'+'%s' % (name))
             self.screenshot()

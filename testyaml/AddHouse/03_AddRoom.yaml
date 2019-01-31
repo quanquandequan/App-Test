@@ -1,0 +1,107 @@
+testinfo:
+    - id: addhouse_003
+      title: 添加房型
+      execute: 3
+testcase:
+    -
+      element_info: 例如：度假村
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 例如：整套售卖
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 例如：1人
+      find_type: text
+      operate_type: send_keys
+      send_content: 2
+    -
+      element_info: 例如：90m²
+      find_type: text
+      operate_type: send_keys
+      send_content: 120
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: //android.widget.EditText[@resource-id='com.waka:id/edt_view_content' and @text='1']
+      find_type: xpath
+      operate_type: send_keys
+      send_content: 5
+    -
+      element_info: 房间结构
+      find_type: text
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[2]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[3]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[4]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 床
+      find_type: text
+      operate_type: click
+    -
+      element_info: 添加新床
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+

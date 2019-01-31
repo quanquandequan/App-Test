@@ -1,0 +1,25 @@
+testinfo:
+    - id: addhouse_004
+      title: 卫浴和请假设施
+      execute: 4
+testcase:
+    -
+      element_info: 添加
+      find_type: text
+      operate_type: click
+    -
+      element_info: com.waka:id/edt_view_content
+      find_type: id
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click

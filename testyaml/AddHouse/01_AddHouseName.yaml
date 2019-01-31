@@ -1,0 +1,39 @@
+testinfo:
+    - id: addhouse_001
+      title: 创建民居房屋
+      execute: 1
+testcase:
+    -
+      element_info: 房屋
+      find_type: text
+      operate_type: click
+    -
+      element_info: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.ImageView
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: com.waka:id/iv_right_arrow
+      find_type: id
+      operate_type: click
+    -
+      element_info: com.waka:id/about
+      find_type: id
+      operate_type: click
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: com.waka:id/btnSubmit
+      find_type: id
+      operate_type: click
+    -
+      element_info: 请输入
+      find_type: text
+      operate_type: send_keys
+      send_content: UI自动化民居
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click
+

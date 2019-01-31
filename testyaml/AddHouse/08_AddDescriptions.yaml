@@ -1,0 +1,42 @@
+testinfo:
+    - id: addhouse_008
+      title: 更多描述信息
+      execute: 8
+testcase:
+    -
+      element_info: 设计感
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 添加
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 都道府县编号
+      find_type: text
+      operate_type: send_keys
+      send_content: 666666
+    -
+      element_info: //android.widget.EditText[@text='全国编号']
+      find_type: xpath
+      operate_type: send_keys
+      send_content: 888888
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click

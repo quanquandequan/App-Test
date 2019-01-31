@@ -19,12 +19,12 @@ testcase:
       element_info: com.waka:id/edt_login_email
       find_type: id
       operate_type: send_keys
-      send_content: quanquan@126.com
+      send_content: quanquandequan@126.com
     -
       element_info: com.waka:id/edt_login_password
       find_type: id
       operate_type: send_keys
-      send_content: qweasd
+      send_content: 123456
     -
       element_info: com.waka:id/btn_login
       find_type: id

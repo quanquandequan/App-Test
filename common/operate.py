@@ -36,6 +36,8 @@ class Operate:
                     self.baseoperate.get_xpath(self.yaml.get_elementinfo(i)).click()
                 elif self.yaml.get_findtype(i) == 'ids':
                     self.baseoperate.get_ids(self.yaml.get_elementinfo(i))[self.yaml.get_index(i)].click()
+                elif self.yaml.get_findtype(i) == 'class':
+                    self.baseoperate.get_class(self.yaml.get_elementinfo(i))[self.yaml.get_index(i)].click()
 
             elif self.yaml.get_operate_type(i) == 'send_keys':
                 self.driver.implicitly_wait(3)

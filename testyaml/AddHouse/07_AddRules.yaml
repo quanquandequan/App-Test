@@ -1,0 +1,56 @@
+testinfo:
+    - id: addhouse_007
+      title: 为房客制定房屋守则
+      execute: 7
+testcase:
+    -
+      element_info: //android.support.v7.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.widget.LinearLayout/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.widget.LinearLayout/android.widget.LinearLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[1]
+      find_type: xpath
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: //android.widget.LinearLayout/android.widget.LinearLayout[5]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RadioGroup[1]/android.widget.RadioButton[1]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: 不允许
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click

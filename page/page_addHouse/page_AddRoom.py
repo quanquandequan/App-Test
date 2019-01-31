@@ -3,11 +3,13 @@
 import os
 from common.operate import Operate
 
-PATH = lambda p: os.path.abspath(os.path.join(os.path.dirname(__file__), p))
-yamlpath = PATH("E:\\App-Test\\testyaml\\login\\02_Unregistered.yaml")
+PATH = lambda p: os.path.abspath(
+        os.path.join(os.path.dirname(__file__), p)
+    )
+yamlpath = PATH("E:\\App-Test\\testyaml\\AddHouse\\03_AddRoom.yaml")
 
 
-class Unregistered:
+class AddRoom:
 
     def __init__(self, driver):
         self.path = yamlpath
@@ -16,6 +18,3 @@ class Unregistered:
 
     def operatepe(self):
         self.operate.check_operate_type()
-
-    def kill(self):
-        self.operate.kill_app()

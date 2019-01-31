@@ -3,7 +3,6 @@
 import unittest
 from page.page_login.page_EmailLogin import EmailLogin
 from page.page_login.page_Unregistered import Unregistered
-from page.page_addHouse.page_AddHotel import AddHotel
 from common.getDriver import driver
 
 
@@ -15,13 +14,8 @@ class LoginTest(unittest.TestCase):
         em = EmailLogin(driver)
         em.operatepe()
 
-    def test_02(self):
-        """添加酒店房屋"""
-        ho = AddHotel(driver)
-        ho.operatepe()
-
     @unittest.skip("跳过")
-    def test_03(self):
+    def test_02(self):
         """账号未注册"""
         un = Unregistered(driver)
         un.operatepe()
@@ -30,5 +24,4 @@ class LoginTest(unittest.TestCase):
 if __name__ == "__main__":
     suite = unittest.TestSuite()
     suite.addTest(LoginTest('test_01'))
-    suite.addTest(LoginTest('test_02'))
-    unittest.TextTestRunner(verbosity=2).run(suite)
+    unittest.TextTestRunner(verbosity=1).run(suite)
