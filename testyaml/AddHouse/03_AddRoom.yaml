@@ -22,21 +22,36 @@ testcase:
     -
       element_info: 例如：1人
       find_type: text
-      operate_type: send_keys
-      send_content: 2
+      operate_type: click
+    -
+      operate_type: picker_up
+      times: 2
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
     -
       element_info: 例如：90m²
       find_type: text
       operate_type: send_keys
       send_content: 120
     -
-      operate_type: swipe_up
-      times: 1
-    -
       element_info: //android.widget.EditText[@resource-id='com.waka:id/edt_view_content' and @text='1']
       find_type: xpath
-      operate_type: send_keys
-      send_content: 5
+      operate_type: click
+    -
+      operate_type: picker_up
+      times: 2
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
     -
       element_info: 房间结构
       find_type: text
@@ -101,7 +116,7 @@ testcase:
       find_type: text
       operate_type: click
     -
-      element_info: 完成
+      element_info: 下一步
       find_type: text
       operate_type: click
 

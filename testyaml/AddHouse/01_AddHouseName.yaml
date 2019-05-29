@@ -4,6 +4,9 @@ testinfo:
       execute: 1
 testcase:
     -
+      operate_type: swipe_up
+      times: 1
+    -
       element_info: 房屋
       find_type: text
       operate_type: click

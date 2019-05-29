@@ -24,4 +24,4 @@ testcase:
     -
       element_info: 该邮箱未注册
       find_type: toast
-      operate_type: assert
+      operate_type: displayed

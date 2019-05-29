@@ -3,6 +3,7 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from time import sleep
 from common.logs import Log
 import os
 import time
@@ -18,6 +19,7 @@ class BaseOperate:
 
     def __init__(self, driver):
         self.driver = driver
+
 
     def back(self):
 
@@ -46,7 +48,7 @@ class BaseOperate:
         windowsSize = self.get_window_size()
         width = windowsSize.get("width")
         height = windowsSize.get("height")
-        self.driver.swipe(width/2, height*3/4, width/2, height/4, 1000)
+        self.driver.swipe(width/2, height*3/4, width/2, height/4, duration=sleep(1))
 
     def swipe_down(self):
 
@@ -57,7 +59,7 @@ class BaseOperate:
         windowsSize = self.get_window_size()
         width = windowsSize.get("width")
         height = windowsSize.get("height")
-        self.driver.swipe(width/2, height/4, width/2, height*3/4, 1000)
+        self.driver.swipe(width/2, height/4, width/2, height*3/4, duration=sleep(1))
 
     def swipe_left(self):
 
@@ -68,7 +70,7 @@ class BaseOperate:
         windowsSize = self.get_window_size()
         width = windowsSize.get("width")
         height = windowsSize.get("height")
-        self.driver.swipe(width*3/4, height/2, width/20, height/2, 1000)
+        self.driver.swipe(width*3/4, height/2, width/20, height/2, duration=sleep(1))
 
     def swipe_right(self):
 
@@ -79,7 +81,7 @@ class BaseOperate:
         windowsSize = self.get_window_size()
         width = windowsSize.get("width")
         height = windowsSize.get("height")
-        self.driver.swipe(width/20, height/2, width*3/4, height/2, 1000)
+        self.driver.swipe(width/20, height/2, width*3/4, height/2, duration=sleep(1))
 
     def screenshot(self):
 
@@ -92,6 +94,61 @@ class BaseOperate:
         # self.driver.get_screenshot_as_file('/Users/xintudoutest/github/Appium/screenshot/' + now + '.png')
         print('screenshot:', now, '.png')
 
+    def get_picker(self):
+
+        """
+            获取picker的element
+        """
+
+        WebDriverWait(self.driver, 15).until(
+            lambda driver: driver.find_element_by_id('com.waka:id/optionspicker').is_displayed())
+        element = self.driver.find_element_by_id('com.waka:id/optionspicker')
+        return element
+
+    def swipe_picker_up(self):
+
+        """
+            element_x，element_y 为picker的宽高
+            start_x，start_y 为picker左上角坐标的x, y
+        """
+
+        element = self.get_picker()
+        element_x = element.size['width']
+        element_y = element.size['height']
+
+        start_x = element.location['x']
+        start_y = element.location['y']
+
+        begin_x = start_x + element_x / 2
+        begin_y = start_y + element_y * 5 / 8
+
+        end_x = start_x + element_x / 2
+        end_y = start_y + element_y * 3 / 8
+
+        self.driver.swipe(begin_x, begin_y, end_x, end_y, duration=sleep(1))
+
+    def swipe_picker_down(self):
+
+        """
+            element_x，element_y 为picker的宽高
+            start_x，start_y 为picker左上角坐标的x, y
+        """
+
+        element = self.get_picker()
+        element_x = element.size['width']
+        element_y = element.size['height']
+
+        start_x = element.location['x']
+        start_y = element.location['y']
+
+        begin_x = start_x + element_x / 2
+        begin_y = start_y + element_y * 5 / 8
+
+        end_x = start_x + element_x / 2
+        end_y = start_y + element_y * 7 / 8
+
+        self.driver.swipe(begin_x, begin_y, end_x, end_y, duration=sleep(1))
+
     def get_name(self, name):
 
         """
@@ -100,7 +157,7 @@ class BaseOperate:
 
         findname = "//*[@text='%s']"%(name)
         try:
-            WebDriverWait(self.driver, 15).until(
+            WebDriverWait(self.driver, 30).until(
                 lambda driver: driver.find_element_by_xpath(findname).is_displayed())
             element = self.driver.find_element_by_xpath(findname)
             # element = WebDriverWait(self.driver, 10).until(lambda x: x.find_element_by_xpath(findname))
@@ -184,9 +241,9 @@ class BaseOperate:
 
         try:
             WebDriverWait(self.driver, 15).until(
-                lambda driver: driver.find_elements_by_class_name(name).is_displayed())
-            elements = self.driver.find_elements_by_class_name(name)
-            return elements
+                lambda driver: driver.find_element_by_class_name(name).is_displayed())
+            element = self.driver.find_element_by_class_name(name)
+            return element
         except:
             log.error('未定位到class元素：'+'%s' % (name))
             self.screenshot()

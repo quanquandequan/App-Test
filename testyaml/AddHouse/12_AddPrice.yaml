@@ -1,0 +1,98 @@
+testinfo:
+    - id: addhouse_012
+      title: 如何售卖你的房屋
+      execute: 12
+testcase:
+    -
+      element_info: 添加
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请输入
+      find_type: text
+      operate_type: send_keys
+      send_content: 1500
+    -
+      element_info: 请输入
+      find_type: text
+      operate_type: send_keys
+      send_content: 1800
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      operate_type: picker_up
+      times: 1
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 请输入
+      find_type: text
+      operate_type: send_keys
+      send_content: 500
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请输入
+      find_type: text
+      operate_type: send_keys
+      send_content: 1000
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 请输入
+      find_type: text
+      operate_type: send_keys
+      send_content: 10000
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 添加
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      operate_type: picker_up
+      times: 1
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 灵活
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click

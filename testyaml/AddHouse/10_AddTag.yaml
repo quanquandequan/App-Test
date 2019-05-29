@@ -1,0 +1,60 @@
+testinfo:
+    - id: addhouse_010
+      title: 添加照片标签
+      execute: 10
+testcase:
+    -
+      element_info: 无标签
+      find_type: text
+      operate_type: click
+    -
+      element_info: 无标签
+      find_type: text
+      operate_type: click
+    -
+      operate_type: picker_down
+      times: 13
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_left
+      times: 1
+    -
+      element_info: 无标签
+      find_type: text
+      operate_type: click
+    -
+      operate_type: picker_down
+      times: 13
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_left
+      times: 1
+    -
+      element_info: 无标签
+      find_type: text
+      operate_type: click
+    -
+      operate_type: picker_down
+      times: 3
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 完成
+      find_type: text
+      operate_type: click
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click

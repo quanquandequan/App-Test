@@ -1,0 +1,45 @@
+testinfo:
+    - id: addhouse_009
+      title: 添加照片
+      execute: 9
+testcase:
+    -
+      element_info: 开始
+      find_type: text
+      operate_type: click
+    -
+      element_info: 添加
+      find_type: text
+      operate_type: click
+    -
+      element_info: com.waka:id/add_photo
+      find_type: id
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView[@resource-id='com.waka:id/activity_picker_with_take_photo_recycler_view_container']/android.widget.RelativeLayout[2]/android.widget.ImageView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView[@resource-id='com.waka:id/activity_picker_with_take_photo_recycler_view_container']/android.widget.RelativeLayout[3]/android.widget.ImageView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView[@resource-id='com.waka:id/activity_picker_with_take_photo_recycler_view_container']/android.widget.RelativeLayout[4]/android.widget.ImageView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView[@resource-id='com.waka:id/activity_picker_with_take_photo_recycler_view_container']/android.widget.RelativeLayout[5]/android.widget.ImageView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView[@resource-id='com.waka:id/activity_picker_with_take_photo_recycler_view_container']/android.widget.RelativeLayout[6]/android.widget.ImageView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: //android.support.v7.widget.RecyclerView[@resource-id='com.waka:id/activity_picker_with_take_photo_recycler_view_container']/android.widget.RelativeLayout[7]/android.widget.ImageView[2]
+      find_type: xpath
+      operate_type: click
+    -
+      element_info: com.waka:id/activity_picker_with_take_photo_bt_save
+      find_type: id
+      operate_type: click

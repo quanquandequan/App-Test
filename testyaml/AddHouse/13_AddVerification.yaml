@@ -1,0 +1,53 @@
+testinfo:
+    - id: addhouse_013
+      title: 房屋决策人身份信息验证
+      execute: 13
+testcase:
+    -
+      element_info: 请输入
+      find_type: text
+      operate_type: send_keys
+      send_content: panpan
+    -
+      element_info: 请选择国家地区，例如中国+86
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 手机号码
+      find_type: text
+      operate_type: send_keys
+      send_content: 18811118888
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 添加照片
+      find_type: text
+      operate_type: click
+    -
+      element_info: com.waka:id/v_selected
+      find_type: id
+      operate_type: click
+    -
+      element_info: com.waka:id/activity_picker_with_take_photo_bt_save
+      find_type: id
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click

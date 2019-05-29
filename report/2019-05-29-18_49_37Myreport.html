@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">自动化测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> 宇宙超级无敌大圈圈</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-01-31 17:52:07</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:02:20.403575</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 9，通过 9，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-05-29 18:49:37</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:05:32.173236</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 14，通过 14，通过率= 100.00%</p>
 
 <p class='description'>测试用例结果</p>
 </div>
@@ -135,8 +135,8 @@ function html_escape(s) {
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
 <a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 9 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 9 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 14 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 14 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -168,8 +168,24 @@ function html_escape(s) {
 </tr>
 
 <tr id='pt1_1' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_01: 手机账号登录</div></td>
-    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+    <td class='passCase'><div class='testcase'>test_01: 邮箱账号登录</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -->
+    <button id='btn_pt1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt1_1'>通过</button>
+    <div id='div_pt1_1' class="collapse in">
+    <pre>
+    
+pt1_1: E:\App-Test\common\readYaml.py:29: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(f)
+
+
+    </pre>
+    </div>
+    </td>
 	<td align='center'>
     <a  hidden="hidden"  href="">失败截图</a>
     </td>
@@ -177,11 +193,11 @@ function html_escape(s) {
 
 <tr class='passClass warning'>
     <td>test_02_add_house.AddTest</td>
-    <td class="text-center">8</td>
-    <td class="text-center">8</td>
+    <td class="text-center">13</td>
+    <td class="text-center">13</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',8)" class="detail" id='c2'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',13)" class="detail" id='c2'>详细</a></td>
 	<td></td>
 </tr>
 
@@ -249,10 +265,50 @@ function html_escape(s) {
     </td>
 </tr>
 
+<tr id='pt2_9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_09: 添加图片</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+	<td align='center'>
+    <a  hidden="hidden"  href="">失败截图</a>
+    </td>
+</tr>
+
+<tr id='pt2_10' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_10: 添加图片标签</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+	<td align='center'>
+    <a  hidden="hidden"  href="">失败截图</a>
+    </td>
+</tr>
+
+<tr id='pt2_11' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_11: 添加入住信息</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+	<td align='center'>
+    <a  hidden="hidden"  href="">失败截图</a>
+    </td>
+</tr>
+
+<tr id='pt2_12' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_12: 添加价格</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+	<td align='center'>
+    <a  hidden="hidden"  href="">失败截图</a>
+    </td>
+</tr>
+
+<tr id='pt2_13' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_13: 添加决策人身份验证</div></td>
+    <td colspan='5' align='center'><span class="label label-success success">通过</span></td>
+	<td align='center'>
+    <a  hidden="hidden"  href="">失败截图</a>
+    </td>
+</tr>
+
 <tr id='total_row' class="text-center active">
     <td>总计</td>
-    <td>9</td>
-    <td>9</td>
+    <td>14</td>
+    <td>14</td>
     <td>0</td>
     <td>0</td>
     <td>通过率：100.00%</td>

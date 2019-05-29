@@ -1,0 +1,63 @@
+testinfo:
+    - id: addhouse_011
+      title: 入住信息
+      execute: 11
+testcase:
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 继续
+      find_type: text
+      operate_type: click
+    -
+      element_info: 中文
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      operate_type: swipe_up
+      times: 1
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 请选择
+      find_type: text
+      operate_type: click
+    -
+      element_info: 确定
+      find_type: text
+      operate_type: click
+    -
+      element_info: 下一步
+      find_type: text
+      operate_type: click

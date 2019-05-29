@@ -97,8 +97,27 @@ class Readyaml:
             获取返回和滑动的次数
         """
         data = self.alldata()
-        if self.get_operate_type(i) == 'back' or self.get_operate_type(i) == 'swipe_up' or self.get_operate_type(i) == 'swipe_down':
+        if self.get_operate_type(i) == 'back':
             return data['testcase'][i]['times']
+
+        elif self.get_operate_type(i) == 'swipe_up':
+            return data['testcase'][i]['times']
+
+        elif self.get_operate_type(i) == 'swipe_down':
+            return data['testcase'][i]['times']
+
+        elif self.get_operate_type(i) == 'swipe_left':
+            return data['testcase'][i]['times']
+
+        elif self.get_operate_type(i) == 'swipe_right':
+            return data['testcase'][i]['times']
+
+        elif self.get_operate_type(i) == 'picker_up':
+            return data['testcase'][i]['times']
+
+        elif self.get_operate_type(i) == 'picker_down':
+            return data['testcase'][i]['times']
+
         else:
             pass
 

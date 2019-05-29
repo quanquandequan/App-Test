@@ -10,7 +10,7 @@ class LoginTest(unittest.TestCase):
     """登录"""
 
     def test_01(self):
-        """手机账号登录"""
+        """邮箱账号登录"""
         em = EmailLogin(driver)
         em.operatepe()
 
