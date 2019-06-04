@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">自动化测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> 宇宙超级无敌大圈圈</p>
-<p class='attribute'><strong>开始时间 : </strong> 2019-05-29 18:49:37</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:05:32.173236</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 14，通过 14，通过率= 100.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2019-06-04 14:48:35</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:06:01.107330</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 15，通过 14，错误 1，通过率= 93.33%</p>
 
 <p class='description'>测试用例结果</p>
 </div>
@@ -133,10 +133,10 @@ function html_escape(s) {
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 100.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 93.33% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
 <a class="btn btn-success" href='javascript:showCase(2)'>通过{ 14 }</a>
-<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 14 }</a>
+<a class="btn btn-info" href='javascript:showCase(3)'>所有{ 15 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
 <colgroup>
@@ -191,13 +191,13 @@ pt1_1: E:\App-Test\common\readYaml.py:29: YAMLLoadWarning: calling yaml.load() w
     </td>
 </tr>
 
-<tr class='passClass warning'>
+<tr class='errorClass warning'>
     <td>test_02_add_house.AddTest</td>
+    <td class="text-center">14</td>
     <td class="text-center">13</td>
-    <td class="text-center">13</td>
+    <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">0</td>
-    <td class="text-center"><a href="javascript:showClassDetail('c2',13)" class="detail" id='c2'>详细</a></td>
+    <td class="text-center"><a href="javascript:showClassDetail('c2',14)" class="detail" id='c2'>详细</a></td>
 	<td></td>
 </tr>
 
@@ -305,13 +305,46 @@ pt1_1: E:\App-Test\common\readYaml.py:29: YAMLLoadWarning: calling yaml.load() w
     </td>
 </tr>
 
+<tr id='ft2_14' class='none'>
+    <td class='errorCase'><div class='testcase'>test_14: 住宿提交审核</div></td>
+    <td colspan='5' align='center'>
+    <!--默认收起错误信息 
+    <button id='btn_ft2_14' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_14'>失败</button>
+    <div id='div_ft2_14' class="collapse">  -->
+
+    <!-- 默认展开错误信息 -->
+    <button id='btn_ft2_14' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_14'>失败</button>
+    <div id='div_ft2_14' class="collapse in">
+    <pre>
+    
+ft2_14: [2019-06-04 14:54:36,267] - [ERROR] - 未定位到元素：知道了
+screenshot: 20190604.14.54.36 .png
+Traceback (most recent call last):
+  File "E:\App-Test\testcase\test_02_add_house.py", line 102, in test_14
+    sub.operatepe()
+  File "E:\App-Test\page\page_addHouse\page_HouseSubmit.py", line 20, in operatepe
+    self.operate.check_operate_type()
+  File "E:\App-Test\common\operate.py", line 32, in check_operate_type
+    self.baseoperate.get_name(self.yaml.get_elementinfo(i)).click()
+AttributeError: 'NoneType' object has no attribute 'click'
+
+
+    </pre>
+    </div>
+    </td>
+	<td align='center'>
+    <a    href="../screenshot/20190604.14.54.36.png
+">失败截图</a>
+    </td>
+</tr>
+
 <tr id='total_row' class="text-center active">
     <td>总计</td>
+    <td>15</td>
     <td>14</td>
-    <td>14</td>
+    <td>1</td>
     <td>0</td>
-    <td>0</td>
-    <td>通过率：100.00%</td>
+    <td>通过率：93.33%</td>
 	<td></td>
 </tr>
 </table>

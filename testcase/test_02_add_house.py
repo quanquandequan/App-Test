@@ -14,6 +14,7 @@ from page.page_addHouse.page_AddTag import AddTag
 from page.page_addHouse.page_AddCheckinInformation import AddCheckinInformation
 from page.page_addHouse.page_AddPrice import AddPrice
 from page.page_addHouse.page_AddVerification import AddVerification
+from page.page_addHouse.page_HouseSubmit import HouseSubmit
 from common.getDriver import driver
 
 
@@ -95,6 +96,11 @@ class AddTest(unittest.TestCase):
         ver = AddVerification(driver)
         ver.operatepe()
 
+    def test_14(self):
+        """住宿提交审核"""
+        sub = HouseSubmit(driver)
+        sub.operatepe()
+
 if __name__ == "__main__":
     suite = unittest.TestSuite()
     suite.addTest(AddTest('test_01'))
@@ -110,4 +116,5 @@ if __name__ == "__main__":
     suite.addTest(AddTest('test_11'))
     suite.addTest(AddTest('test_12'))
     suite.addTest(AddTest('test_13'))
-    unittest.TextTestRunner(verbosity=13).run(suite)
+    suite.addTest(AddTest('test_14'))
+    unittest.TextTestRunner(verbosity=14).run(suite)

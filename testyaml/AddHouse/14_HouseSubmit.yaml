@@ -1,0 +1,17 @@
+testinfo:
+    - id: addhouse_014
+      title: 住宿提交审核
+      execute: 14
+testcase:
+    -
+      element_info: com.waka:id/icon_select
+      find_type: id
+      operate_type: click
+    -
+      element_info: 提交审核
+      find_type: text
+      operate_type: click
+    -
+      element_info: 知道了
+      find_type: text
+      operate_type: click

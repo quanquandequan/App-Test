@@ -35,18 +35,13 @@ driver.find_element_by_xpath("//*[@text='关于房屋']").click()
 sleep(3)
 driver.find_element_by_xpath("//*[@text='民居']").click()
 sleep(3)
-# driver.find_element_by_xpath('//android.support.v7.widget.RecyclerView/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]').click()
-# sleep(3)
-# driver.find_element_by_xpath("//*[@text='无标签']").click()
-# sleep(3)
-
 
 element = driver.find_element_by_id('com.waka:id/optionspicker')
 
-element_x = element.size['width']  #element_x为picker的宽，element_y为picker的高
+element_x = element.size['width']
 element_y = element.size['height']
 
-start_x = element.location['x'] #start_x，start_y 为picker左上角坐标的x, y
+start_x = element.location['x']
 start_y = element.location['y']
 
 begin_x = start_x + element_x / 2
@@ -55,10 +50,10 @@ begin_y = start_y + element_y * 5 / 8
 end_x = start_x + element_x / 2
 end_y = start_y + element_y * 3 / 8
 
-# action.press(x=545, y=1650,).wait(100).move_to(x=545, y=1625).release().perform()
-# driver.swipe(545, 1665, 545, 1765, duration=sleep(1))
+
 driver.swipe(begin_x, begin_y, end_x, end_y, duration=sleep(1))
-# action.press(x=end_x, y=end_y).wait(100).move_to(x=begin_x, y=begin_y).release().perform()
 sleep(3)
+
+# action = TouchAction(driver)
+# action.press(x=end_x, y=end_y).wait(100).move_to(x=begin_x, y=begin_y).release().perform()
 driver.quit()
-#x=end_x, y=end_y
