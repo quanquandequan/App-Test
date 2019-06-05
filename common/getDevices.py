@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import os
-from common.readConfig import Readconfig
+from common.ReadConfig import Readconfig
 from common.logs import Log
 
 conf = Readconfig()
@@ -16,8 +16,8 @@ class Devices:
             从config配置文件中获取adb命令
         """
 
-        self.get_device = conf.getcmdValue('viewPhone')
-        self.get_Version = conf.getcmdValue('viewAndroid')
+        self.get_device = conf.getadbValue('viewPhone')
+        self.get_Version = conf.getadbValue('viewAndroid')
 
     def get_device_name(self):
 
@@ -49,6 +49,6 @@ class Devices:
 
 
 if __name__ == '__main__':
-    cmd = Devices()
-    cmd.get_device_name()
-    cmd.get_platform_version()
+    devices = Devices()
+    devices.get_device_name()
+    devices.get_platform_version()

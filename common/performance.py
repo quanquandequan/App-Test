@@ -2,7 +2,7 @@
 
 import re
 import os
-from common.readConfig import Readconfig
+from common.ReadConfig import Readconfig
 
 conf = Readconfig()
 
@@ -14,9 +14,9 @@ class Performance:
         """
             从config配置文件中获取adb命令
         """
-        self.cpu = conf.getcmdValue('cpu')
-        self.men = conf.getcmdValue('men')
-        self.fps = conf.getcmdValue('fps')
+        self.cpu = conf.getadbValue('cpu')
+        self.men = conf.getadbValue('men')
+        self.fps = conf.getadbValue('fps')
 
     def get_cpu(self):
 

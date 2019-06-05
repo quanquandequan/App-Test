@@ -1,8 +1,9 @@
 # coding=utf-8
 
 from appium import webdriver
-from appium.webdriver.common.touch_action import TouchAction
+from selenium.webdriver.support.ui import WebDriverWait
 from time import sleep
+import os
 
 desired_caps = {}
 desired_caps['deviceName'] = 'DLQ0216406000828'
@@ -33,27 +34,34 @@ driver.find_element_by_xpath("//*[@text='继续编辑']").click()
 sleep(3)
 driver.find_element_by_xpath("//*[@text='关于房屋']").click()
 sleep(3)
-driver.find_element_by_xpath("//*[@text='民居']").click()
+driver.find_element_by_xpath("//*[@text='下一步']").click()
 sleep(3)
 
-element = driver.find_element_by_id('com.waka:id/optionspicker')
+def backpage(name):
+    """
+        返回到指定页面
+    """
 
-element_x = element.size['width']
-element_y = element.size['height']
+    i = 0
+    while i < 10:
+        try:
+            findname = "//*[@text='%s']" % (name)
+            WebDriverWait(driver, 2).until(
+                lambda driver: driver.find_element_by_xpath(findname).is_displayed())
+            element = driver.find_element_by_xpath(findname)
+            element.click()
+            break
+        except:
+            os.popen("adb shell input keyevent 4")
+            # try:
+            #     findname = "//*[@text='首页']"
+            #     driver.find_element_by_xpath(findname).click()
+            #     driver.implicitly_wait(2)
+            # except:
+            #     os.popen("adb shell input keyevent 4")
 
-start_x = element.location['x']
-start_y = element.location['y']
 
-begin_x = start_x + element_x / 2
-begin_y = start_y + element_y * 5 / 8
-
-end_x = start_x + element_x / 2
-end_y = start_y + element_y * 3 / 8
+backpage('首页')
 
 
-driver.swipe(begin_x, begin_y, end_x, end_y, duration=sleep(1))
-sleep(3)
-
-# action = TouchAction(driver)
-# action.press(x=end_x, y=end_y).wait(100).move_to(x=begin_x, y=begin_y).release().perform()
 driver.quit()

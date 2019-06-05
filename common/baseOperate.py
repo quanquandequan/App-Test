@@ -249,24 +249,18 @@ class BaseOperate:
             self.screenshot()
 
     def backpage(self, name):
-
         """
-            返回到指定页面，不兼容Android7.0系统
+            返回到指定页面
         """
 
         i = 0
         while i < 10:
-            i = i + 1
             try:
                 findname = "//*[@text='%s']" % (name)
-                self.driver.find_element_by_xpath(findname)
-                self.driver.implicitly_wait(2)
+                WebDriverWait(self.driver, 2).until(
+                    lambda driver: driver.find_element_by_xpath(findname).is_displayed())
+                element = self.driver.find_element_by_xpath(findname)
+                element.click()
                 break
             except:
                 os.popen("adb shell input keyevent 4")
-                try:
-                    findname = "//*[@text='房东面板']"
-                    self.driver.find_element_by_xpath(findname).click()
-                    self.driver.implicitly_wait(2)
-                except:
-                    os.popen("adb shell input keyevent 4")

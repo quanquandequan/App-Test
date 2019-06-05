@@ -4,7 +4,7 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
-from common.readConfig import Readconfig
+from common.ReadConfig import Readconfig
 from common.logs import Log
 
 conf = Readconfig()
@@ -24,7 +24,6 @@ class Email:
         self.mail_host = conf.getemailValue('mail_host')
         self.mail_user = conf.getemailValue('mail_user')
         self.mail_pass = conf.getemailValue('mail_pass')
-
 
     def get_mail(self):
 
@@ -69,7 +68,6 @@ class Email:
 
 if __name__ == '__main__':
     em = Email()
-    em.get_mail()
     em.send_mail()
 
 

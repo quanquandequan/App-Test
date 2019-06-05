@@ -21,12 +21,12 @@ class Readconfig:
         value = self.conf.get('app', name)
         return value
 
-    def getcmdValue(self, name):
+    def getadbValue(self, name):
 
         """
-            name：'cmd'下面参数对应的值
+            name：'adb'下面参数对应的值
         """
-        value = self.conf.get('cmd', name)
+        value = self.conf.get('adb', name)
         return value
 
     def getemailValue(self, name):

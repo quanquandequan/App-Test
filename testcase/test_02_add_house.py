@@ -15,12 +15,13 @@ from page.page_addHouse.page_AddCheckinInformation import AddCheckinInformation
 from page.page_addHouse.page_AddPrice import AddPrice
 from page.page_addHouse.page_AddVerification import AddVerification
 from page.page_addHouse.page_HouseSubmit import HouseSubmit
-from common.getDriver import driver
+from common.GetDriver import Driver
+
+driver = Driver().get_driver()
 
 
 class AddTest(unittest.TestCase):
 
-#    @unittest.skip("跳过")
     def test_01(self):
         """添加房屋名称"""
         na = AddHouseName(driver)

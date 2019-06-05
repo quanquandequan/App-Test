@@ -1,7 +1,7 @@
 # coding=utf-8
 
-from common.readYaml import Readyaml
-from common.baseOperate import BaseOperate
+from common.ReadYaml import Readyaml
+from common.BaseOperate import BaseOperate
 
 
 class Operate:
@@ -50,11 +50,13 @@ class Operate:
                 elif self.yaml.get_findtype(i) == 'ids':
                     self.baseoperate.get_ids(self.yaml.get_elementinfo(i))[self.yaml.get_index(i)].send_keys(self.yaml.get_send_content(i))
 
-            elif self.yaml.get_operate_type(i) == 'displayed':
+            elif self.yaml.get_operate_type(i) == 'check':
                 if self.yaml.get_findtype(i) == 'text':
                     self.baseoperate.get_name(self.yaml.get_elementinfo(i))
+                    pass
                 elif self.yaml.get_findtype(i) == 'toast':
                     self.baseoperate.get_toast(self.yaml.get_elementinfo(i))
+                    pass
 
             elif self.yaml.get_operate_type(i) == 'back':
                 for n in range(self.yaml.get_backtimes(i)):
@@ -84,12 +86,10 @@ class Operate:
                 for n in range(self.yaml.get_backtimes(i)):
                     self.baseoperate.swipe_picker_down()
 
-
-
     def back_home(self):
 
         """
-            返回指定页面
+            返回到首页
         """
 
-        self.baseoperate.backpage(u'房东面板')
+        self.baseoperate.backpage(u'首页')

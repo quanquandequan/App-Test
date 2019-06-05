@@ -3,7 +3,7 @@
 import time
 import unittest
 import HTMLTestRunner
-from common.sendEmail import Email
+from common.SendEmail import Email
 
 email = Email()
 all_case = 'E:\\App-Test\\testcase'

@@ -3,7 +3,9 @@
 import unittest
 from page.page_login.page_EmailLogin import EmailLogin
 from page.page_login.page_Unregistered import Unregistered
-from common.getDriver import driver
+from common.GetDriver import Driver
+
+driver = Driver().get_driver()
 
 
 class LoginTest(unittest.TestCase):

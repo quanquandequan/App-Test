@@ -47,11 +47,11 @@ class Log:
 
         if level == 'info':
             self.logger.info(message)
-        elif level =='debug':
+        elif level == 'debug':
             self.logger.debug(message)
-        elif level =='warn':
+        elif level == 'warn':
             self.logger.warn(message)
-        elif level =='error':
+        elif level == 'error':
             self.logger.error(message)
 
         self.logger.removeHandler(fh)  # 防止重复打印
