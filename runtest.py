@@ -10,7 +10,7 @@ all_case = 'E:\\App-Test\\testcase'
 # all_case = '/Users/xintudoutest/github/Appium/testcase'
 
 
-def CreateSuite():
+def create_suite():
 
     """
         使用discover查找出testcase文件夹下的所有test开头的.py文件
@@ -29,18 +29,21 @@ def CreateSuite():
     return test_suite
 
 
-def runtest():
-    case = CreateSuite()
+def run_test():
+    """
+        运行测试用例，生成测试报告
+    """
+    test_case = create_suite()
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
     filename = 'E:\\App-Test\\report\\' + now + "Myreport.html"
     # filename = '/Users/xintudoutest/github/Appium/report/' + now + "Myreport.html"
     fp = open(filename, 'wb')
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u'自动化测试报告', description=u'测试用例结果', tester=u'宇宙超级无敌大圈圈')
-    runner.run(case)
+    runner.run(test_case)
     fp.close()
 
 
 if __name__ == "__main__":
-    runtest()
+    run_test()
     email.send_mail()
 

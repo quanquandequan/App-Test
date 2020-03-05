@@ -41,7 +41,7 @@ class Devices:
 
         values = os.popen(self.get_Version).readlines()
         if values != '':
-            version = values[0].split('=')[1]
+            version = values[0].split()[0]
             log.info('手机版本号为：'+version)
             return version.strip()
         else:
