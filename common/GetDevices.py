@@ -2,7 +2,7 @@
 
 import os
 from common.ReadConfig import Readconfig
-from common.logs import Log
+from common.Logs import Log
 
 conf = Readconfig()
 log = Log()

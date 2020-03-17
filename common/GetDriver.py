@@ -5,7 +5,7 @@ from appium import webdriver
 from selenium.common.exceptions import WebDriverException
 from common.ReadConfig import Readconfig
 from common.GetDevices import Devices
-from common.logs import Log
+from common.Logs import Log
 
 
 log = Log()

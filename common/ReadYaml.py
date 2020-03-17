@@ -1,7 +1,7 @@
 # coding=utf-8
 
 import yaml
-from common.logs import Log
+from common.Logs import Log
 
 log = Log()
 

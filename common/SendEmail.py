@@ -5,7 +5,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 from common.ReadConfig import Readconfig
-from common.logs import Log
+from common.Logs import Log
 
 conf = Readconfig()
 log = Log()
