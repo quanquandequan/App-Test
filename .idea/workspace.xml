@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90fac605-87bd-469a-80d4-5599753384ba" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="90fac605-87bd-469a-80d4-5599753384ba" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,112 +23,6 @@
     <SUITE FILE_PATH="coverage/App_Test$Unittests_in_QUAN_py.coverage" NAME="Unittests in QUAN.py Coverage Results" MODIFIED="1557307850720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/App_Test$Unittests_in_test_01_login_py.coverage" NAME="Unittests in test_01_login.py Coverage Results" MODIFIED="1559705072038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Operate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/Operate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding>
-                <element signature="e#16#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseOperate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/BaseOperate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="210" column="49" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page_EmailLogin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page/page_login/page_EmailLogin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="e#16#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_01_login.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/test_01_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01_EmailLogin.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testyaml/login/01_EmailLogin.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02_Unregistered.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testyaml/login/02_Unregistered.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetDevices.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/GetDevices.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/config.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android_device.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/android_device.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-              <folding>
-                <element signature="e#16#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ios_device.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/ios_device.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -136,94 +30,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>picker</find>
-      <find>OsOrderStateTopic</find>
-      <find>order_app_pushes</find>
-      <find>jarvis</find>
-      <find>eventlog</find>
-      <find>order.state.submitted</find>
-      <find>order.state.passed</find>
-      <find>order.state.canceled</find>
-      <find>order.state.refused</find>
-      <find>order.state.confirm_timeout</find>
-      <find>order.state.paid</find>
-      <find>order.state.pay_timeout</find>
-      <find>waka_drawback.state.approved</find>
-      <find>order_stock.stock.expanded</find>
-      <find>order_stock.stock.update</find>
-      <find>order.state.refunded</find>
-      <find>order.state</find>
-      <find>log</find>
-      <find>order.state.*</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/02_AddHouseCity.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/04_AddBathroom.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/05_AddKitchen.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/06_AddServices.yaml" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddHouseName.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddRoom.py" />
-        <option value="$PROJECT_DIR$/page/page_login/page_EmailLogin.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddBathroom.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddKitchen.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddServices.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddRules.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddDescriptions.py" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/07_AddRules.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/08_AddDescriptions.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/login/02_Unregistered.yaml" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddPictures.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddTag.py" />
-        <option value="$PROJECT_DIR$/testcase/QUAN.py" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/01_AddHouseName.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/login/01_EmailLogin.yaml" />
-        <option value="$PROJECT_DIR$/common/readYaml.py" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/03_AddRoom.yaml" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddCheckinInformation.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddVerification.py" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/13_AddVerification.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/09_AddPictures.yaml" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/11_AddCheckinInformation.yaml" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_AddPrice.py" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/12_AddPrice.yaml" />
-        <option value="$USER_HOME$/Downloads/queues_config.yml" />
-        <option value="$USER_HOME$/Downloads/queues_config (1).yml" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/14_HouseSubmit.yaml" />
-        <option value="$PROJECT_DIR$/common/baseOperate.py" />
-        <option value="$PROJECT_DIR$/common/operate.py" />
-        <option value="$PROJECT_DIR$/page/page_addHouse/page_HouseSubmit.py" />
-        <option value="$PROJECT_DIR$/testyaml/AddHouse/10_AddTag.yaml" />
-        <option value="$PROJECT_DIR$/testcase/test_01_login.py" />
-        <option value="$PROJECT_DIR$/testcase/test_02_add_house.py" />
-        <option value="$PROJECT_DIR$/common/sendEmail.py" />
-        <option value="$PROJECT_DIR$/common/readConfig.py" />
-        <option value="$PROJECT_DIR$/common/performance.py" />
-        <option value="$PROJECT_DIR$/common/logs.py" />
-        <option value="$PROJECT_DIR$/common/getDriver.py" />
-        <option value="$PROJECT_DIR$/common/getDevices.py" />
-        <option value="$PROJECT_DIR$/demo/android_device.py" />
-        <option value="$PROJECT_DIR$/common/BaseOperate.py" />
-        <option value="$PROJECT_DIR$/page/page_login/page_Unregistered.py" />
-        <option value="$PROJECT_DIR$/common/Operate.py" />
-        <option value="$PROJECT_DIR$/runtest.py" />
-        <option value="$PROJECT_DIR$/common/config.ini" />
-        <option value="$PROJECT_DIR$/common/GetDevices.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="5" />
@@ -231,78 +39,11 @@
     <option name="width" value="1364" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="page_addHouse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="page_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="testyaml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="testyaml" type="462c0819:PsiDirectoryNode" />
-              <item name="AddHouse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App-Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App-Test" type="462c0819:PsiDirectoryNode" />
-              <item name="testyaml" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1ZFimDnl8L2LdgDOGxNv3Cz763f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -317,19 +58,7 @@
       <recent name="E:\App-Test\testyaml\AddHouse" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.GetDevices">
+  <component name="RunManager" selected="Python.sendEmail">
     <configuration name="GetDevices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="App-Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -348,6 +77,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Operate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="App-Test" />
@@ -367,6 +99,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="android_device" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="App-Test" />
@@ -386,8 +121,11 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="performance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sendEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="App-Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,11 +138,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\App-Test\common\Performance.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/sendEmail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Unittests in test_01_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="App-Test" />
@@ -419,21 +160,22 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_01_login.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in test_01_login.py" />
-      <item itemvalue="Python.performance" />
       <item itemvalue="Python.Operate" />
       <item itemvalue="Python.android_device" />
       <item itemvalue="Python.GetDevices" />
+      <item itemvalue="Python tests.Unittests in test_01_login.py" />
+      <item itemvalue="Python.sendEmail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sendEmail" />
         <item itemvalue="Python.GetDevices" />
         <item itemvalue="Python.android_device" />
         <item itemvalue="Python.Operate" />
         <item itemvalue="Python tests.Unittests in test_01_login.py" />
-        <item itemvalue="Python.performance" />
       </list>
     </recent_temporary>
   </component>
@@ -447,6 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543833322116</updated>
+      <workItem from="1584441404285" duration="112000" />
     </task>
     <servers />
   </component>
@@ -482,405 +225,45 @@
       <configuration name="Unittests in test_01_login.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3901274" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19106881" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2" timestamp="1584441536304">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584441536304" />
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1584441586397">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584441586397" />
+    <state width="1398" height="246" key="GridCell.Tab.0.center" timestamp="1584441586396">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584441586396" />
+    <state width="1398" height="246" key="GridCell.Tab.0.left" timestamp="1584441586396">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584441586396" />
+    <state width="1398" height="246" key="GridCell.Tab.0.right" timestamp="1584441586397">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584441586397" />
+    <state x="229" y="60" key="SettingsEditor" timestamp="1584441515442">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1584441515442" />
+    <state x="399" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584441405062">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="399" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1584441405062" />
+    <state x="386" y="57" width="667" height="729" key="find.popup" timestamp="1584441480297">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="386" y="57" width="667" height="729" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1584441480297" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/BaseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5180">
-          <caret line="265" column="37" lean-forward="true" selection-start-line="265" selection-start-column="37" selection-end-line="265" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddKitchen.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddTag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddRoom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddPrice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/11_AddCheckinInformation.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/05_AddKitchen.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddHouseName.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddHouseCity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/queues_config.yml" />
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddPictures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/queues_config (1).yml" />
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/07_AddRules.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="53" column="23" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/04_AddBathroom.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/12_AddPrice.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/03_AddRoom.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/09_AddPictures.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/06_AddServices.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/08_AddDescriptions.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/14_HouseSubmit.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/13_AddVerification.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddVerification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_HouseSubmit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/appium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/10_AddTag.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/Quanquan20190605.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_login/page_Unregistered.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runtest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/test_02_add_house.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/02_AddHouseCity.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/AddHouse/01_AddHouseName.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/Quanquan20190604.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/logs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10320">
-          <caret line="520" column="8" selection-start-line="520" selection-start-column="8" selection-end-line="520" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/Performance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/ReadConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/SendEmail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_addHouse/page_AddBathroom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/ReadYaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/GetDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="68" lean-forward="true" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
-          <folding>
-            <element signature="e#16#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/login/01_EmailLogin.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testyaml/login/02_Unregistered.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/ios_device.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/android_device.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="e#16#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/GetDevices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/BaseOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="210" column="49" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/Operate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/test_01_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/page_login/page_EmailLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#16#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/App_Test$sendEmail.coverage" NAME="sendEmail Coverage Results" MODIFIED="1584441586385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
   <component name="masterDetails">
     <states>
