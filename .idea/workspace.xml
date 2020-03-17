@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90fac605-87bd-469a-80d4-5599753384ba" name="Default" comment="">
+    <list default="true" id="90fac605-87bd-469a-80d4-5599753384ba" name="Default" comment="Mac调试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/baseOperate.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/BaseOperate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/getDevices.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/GetDevices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/getDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/GetDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/Operate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readYaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/ReadYaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/sendEmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/SendEmail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +64,7 @@
       <recent name="E:\App-Test\testyaml\AddHouse" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.sendEmail">
+  <component name="RunManager" selected="Python.SendEmail">
     <configuration name="GetDevices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="App-Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +109,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="SendEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="App-Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/SendEmail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="android_device" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="App-Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,28 +145,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/android_device.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="sendEmail" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="App-Test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/sendEmail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +173,11 @@
       <item itemvalue="Python.android_device" />
       <item itemvalue="Python.GetDevices" />
       <item itemvalue="Python tests.Unittests in test_01_login.py" />
-      <item itemvalue="Python.sendEmail" />
+      <item itemvalue="Python.SendEmail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sendEmail" />
+        <item itemvalue="Python.SendEmail" />
         <item itemvalue="Python.GetDevices" />
         <item itemvalue="Python.android_device" />
         <item itemvalue="Python.Operate" />
@@ -189,8 +195,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543833322116</updated>
-      <workItem from="1584441404285" duration="112000" />
+      <workItem from="1584441404285" duration="427000" />
     </task>
+    <task id="LOCAL-00001" summary="Mac调试">
+      <created>1584441711426</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584441711426</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -228,31 +242,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mac调试" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mac调试" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2" timestamp="1584441536304">
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2" timestamp="1584441711199">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584441536304" />
-    <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1584441586397">
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584441711199" />
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1584441727126">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584441586397" />
-    <state width="1398" height="246" key="GridCell.Tab.0.center" timestamp="1584441586396">
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584441727126" />
+    <state width="1398" height="246" key="GridCell.Tab.0.center" timestamp="1584441727124">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584441586396" />
-    <state width="1398" height="246" key="GridCell.Tab.0.left" timestamp="1584441586396">
+    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584441727124" />
+    <state width="1398" height="246" key="GridCell.Tab.0.left" timestamp="1584441727123">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584441586396" />
-    <state width="1398" height="246" key="GridCell.Tab.0.right" timestamp="1584441586397">
+    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584441727123" />
+    <state width="1398" height="246" key="GridCell.Tab.0.right" timestamp="1584441727125">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584441586397" />
+    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584441727125" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1584441515442">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1584441515442" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1584441719712">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584441719712" />
     <state x="399" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584441405062">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
