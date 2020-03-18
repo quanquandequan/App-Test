@@ -32,6 +32,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -257,10 +263,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Mac调试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2" timestamp="1584441872445">
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2" timestamp="1584499424150">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584441872445" />
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584499424150" />
     <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1584444808165">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -281,10 +287,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1584441985084" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1584441877835">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1584499436148">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584441877835" />
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584499436148" />
     <state x="399" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584498936418">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
