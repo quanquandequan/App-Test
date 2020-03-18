@@ -18,7 +18,7 @@ class Operate:
             # 读取yaml的信息并执行
             # element_info：定位元素的信息
             # find_type：定位元素的类型 id、xpath、text、ids
-            # operate_type: 要执行的操作 click、send_keys、back、swipe_up、swipe_down、displayed
+            # operate_type: 要执行的操作 click、send_keys、back、swipe_up、swipe_down、check
             # send_content：执行send_keys时，要输入的内容
             # index：ids时用到，元素组的第几位
             # times: swipe和back的次数
