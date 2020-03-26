@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90fac605-87bd-469a-80d4-5599753384ba" name="Default" comment="Mac调试">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/ios_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/ios_device.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +40,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="34" />
-    <option name="width" value="1364" />
-    <option name="height" value="735" />
-  </component>
   <component name="ProjectId" id="1ZFimDnl8L2LdgDOGxNv3Cz763f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -64,7 +59,7 @@
       <recent name="E:\App-Test\testyaml\AddHouse" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.SendEmail">
+  <component name="RunManager" selected="Python.ios_device">
     <configuration name="GetDevices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="App-Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,19 +148,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_01_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="ios_device" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="App-Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_01_login.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/ios_device.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
@@ -173,15 +175,15 @@
       <item itemvalue="Python.android_device" />
       <item itemvalue="Python.GetDevices" />
       <item itemvalue="Python.SendEmail" />
-      <item itemvalue="Python tests.Unittests in test_01_login.py" />
+      <item itemvalue="Python.ios_device" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ios_device" />
         <item itemvalue="Python.SendEmail" />
         <item itemvalue="Python.GetDevices" />
         <item itemvalue="Python.android_device" />
         <item itemvalue="Python.Operate" />
-        <item itemvalue="Python tests.Unittests in test_01_login.py" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +200,9 @@
       <workItem from="1584441404285" duration="1073000" />
       <workItem from="1584498932849" duration="556000" />
       <workItem from="1584499586030" duration="386000" />
-      <workItem from="1584500155037" duration="100000" />
+      <workItem from="1584500155037" duration="1976000" />
+      <workItem from="1584667799959" duration="1339000" />
+      <workItem from="1585212794466" duration="1022000" />
     </task>
     <task id="LOCAL-00001" summary="Mac调试">
       <created>1584441711426</created>
@@ -242,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584499477573</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mac调试">
+      <created>1584500264210</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584500264210</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -285,44 +296,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="Mac调试" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2" timestamp="1584499477421">
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2" timestamp="1584500264053">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584499477421" />
-    <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1584444808165">
+    <state x="334" y="23" width="772" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1584500264053" />
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom" timestamp="1585213772350">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585213772350" />
     <state width="1398" height="246" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1584444808165" />
-    <state width="1398" height="246" key="GridCell.Tab.0.center" timestamp="1584444808164">
+    <state width="1398" height="246" key="GridCell.Tab.0.center" timestamp="1585213772350">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585213772350" />
     <state width="1398" height="246" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1584444808164" />
-    <state width="1398" height="246" key="GridCell.Tab.0.left" timestamp="1584444808163">
+    <state width="1398" height="246" key="GridCell.Tab.0.left" timestamp="1585213772349">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585213772349" />
     <state width="1398" height="246" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1584444808163" />
-    <state width="1398" height="246" key="GridCell.Tab.0.right" timestamp="1584444808165">
+    <state width="1398" height="246" key="GridCell.Tab.0.right" timestamp="1585213772350">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585213772350" />
     <state width="1398" height="246" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1584444808165" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1584500254481">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1584500254481" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1584499592914">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1584500269036">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584499592914" />
-    <state x="399" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584500155439">
+    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1584500269036" />
+    <state x="399" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585212795473">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
+    <state x="399" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797/1440.23.1920.1057@0.23.1440.797" timestamp="1585212795473" />
     <state x="399" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1584500155439" />
     <state x="386" y="57" width="667" height="729" key="find.popup" timestamp="1584441480297">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="386" y="57" width="667" height="729" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1584441480297" />
+    <state x="385" y="144" key="search.everywhere.popup" timestamp="1584685974682">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1584685974682" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/App_Test$ios_device.coverage" NAME="ios_device Coverage Results" MODIFIED="1585213772342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/App_Test$sendEmail.coverage" NAME="sendEmail Coverage Results" MODIFIED="1584441586385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
   </component>
   <component name="masterDetails">
